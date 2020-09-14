@@ -1,5 +1,13 @@
 ## Question 1
 
+Alas, I didn't got much time to do!
+
+- But here is my ideas I will use the TaskSchedular library in Python `pip3 install TaskScheduler`
+- Then, I will write the script which will run the command Docker logs and will fetch the logs of the application in the container.
+- Then In the script I will check for codes of 4xx range error codes and send an email accoridingly.
+- I will check if some IP adress has continuesly made a request to the server, then I will also send an email regarding that. As we can see in the **link** http://mandifunker.pythonanywhere.com/
+- Accordingly we can check for errors logs in that and finally report that.
+
 ## Question 2
 
 Using the whois command, I found where the domain belongs and also using the website whois.domaintools.com
