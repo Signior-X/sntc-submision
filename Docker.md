@@ -36,6 +36,8 @@ Dockerfile is given in Docker in the project root, and the image is priyamseth/b
 - As containers run _independently_ so if he does a mistake, it will not effect the whole server.... so I didn't choose option1 and instead choose option1.
 - Also I tried and without sudo priveleges, it's pretty not useful to use docker container.
 - Now for the execution part, I will create config filed and handlover them to him. So that he can himself setup the configuration for his app. And can update the docker accordingly.
+- However I will **prefer** to use `Docker compose` here https://docs.docker.com/compose/ and create docker-compose.yml
+- Using this he can easily setup the configs himself.
 - I found the ways here https://docs.docker.com/engine/swarm/configs/
 
 
