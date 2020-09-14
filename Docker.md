@@ -1,6 +1,17 @@
 ## Question 1
 
-For this part, I made a change in the app.js file. A library 
+For this part, I made a change in the app.js file. A library called a morgan is used for automatic logs in Nodejs. However one can use console.log and console.error wherever required. If logs are required in a file, one can also use an express-logger.
+
+Then run the docker image without the detach argument and one can easily see the logs
+
+So  here is what I did:
+##### Learned about Docker
+1. Installled docker in my Ubuntu 18.04 https://docs.docker.com/engine/install/ubuntu/#prerequisites 
+2. Then followed there tutorial given on the site https://docs.docker.com/get-started/
+3. And from here i learned for how to write a Dockerfile here https://www.youtube.com/watch?v=iqqDU2crIEQ&feature=youtu.be
+4. I already knew how to show logs in Nodejs, just checked for if something is needed to do with using Docker also.... Nice not needed.
+5. After that I wrote the Docker file with baat-cheet and installed morgan using `npm install morgan`
+6. Then I did docker build and deploy on the docker hub.
 
 
 ## Question 2
