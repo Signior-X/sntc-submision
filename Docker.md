@@ -18,16 +18,17 @@ So  here is what I did:
 ```
 sudo docker build -t priyamseth/baat-cheet .
 ```
-7. Then i first tested it on my local machine by the following command
+8. Then i first tested it on my local machine by the following command
 ```
 sudo docker run --publish 3000:3000 priyamseth/baat-cheet
 ```
-8. It was working as expected, showing logs on docker run.
-9. The after the login, I pushed the docker image to docker hub
+9. It was working as expected, showing logs on docker run.
+10. The after the login, I pushed the docker image to docker hub
 ```
-sudo docker push priyamseth/cheers2019
+sudo docker push priyamseth/baat-cheet
 ```
 
+Dockerfile is given in Docker in the project root, and the image is priyamseth/baat-cheet
 
 ## Question 2
 
